@@ -1,4 +1,4 @@
-package com.lovelacetecnologia.jdbc;
+package com.lovelacetecnologia.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -23,12 +23,4 @@ public class ConexaoUtil {
 
 	}
 
-	public static void main(String[] args) {
-
-		try {
-			System.out.println(getInstance().getConnection());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 }
